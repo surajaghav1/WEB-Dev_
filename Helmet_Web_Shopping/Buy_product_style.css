@@ -1,0 +1,54 @@
+html, body {
+    height: 100%;
+    overflow-x: hidden;  /* Prevent horizontal scrolling */
+}
+
+.container{
+    background: rgb(240, 240, 240);
+    /* justify-content: center; */
+    display: flex;
+    margin-top: 150px;
+    border-radius: 30px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.BuyImg{
+    width: 50%;
+    margin: 30px;
+    /* border: 2px solid red; */
+
+}
+.BuyImg img{
+    width: 100%;
+    height: 500px;
+    margin-left: 30px;
+    border-radius: 30px;
+    z-index: inherit;
+    /* border: 2px solid black; */
+}
+.CartText{
+    color: black;
+    font-size: 18px;
+    margin-left: 30px;
+}
+.checkout{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+}
+.checkout h1{
+    width: 100%;
+    /* display: inline; */
+}
+#gifimg{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+#gifimg img{
+    height: 400px;
+    width: 50%;
+}

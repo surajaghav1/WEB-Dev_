@@ -1,0 +1,128 @@
+/* General Reset and Body Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background: url('https://www.shutterstock.com/shutterstock/videos/3576564773/thumb/1.jpg?ip=x480') no-repeat; */
+
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Section */
+/* 
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+header .container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1 {
+    font-size: 2em;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+} */
+
+header nav a:hover {
+    color: #ffd700;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+nav a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/* Main Content Section */
+/* main {
+    padding: 40px 0;
+  
+    background: url('https://media.licdn.com/dms/image/C5612AQGszfgBukKP7Q/article-cover_image-shrink_720_1280/0/1639662170950?e=2147483647&v=beta&t=MMmp5AO_29IwfUn3BQqioprnu-N66gTQpPAksP5BfSE') no-repeat;
+    background-size: cover;  
+    background-position: center center;  
+    background-repeat: no-repeat;  
+    background-attachment: fixed;  
+    color: white;
+} */
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.intro, .how-it-works, .benefits {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #070000;
+    margin-bottom: 20px;
+}
+
+p, ol, ul {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+ol li, ul li {
+    margin-left: 20px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #ffd700;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
